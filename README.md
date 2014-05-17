@@ -4,12 +4,12 @@ Senior design project.
 
 Functional Descriptive Detailed Requirements:
 
-- [] Potential users must register on the website 
-	- []Users must use their NYU email to register and the system will confirm they are NYU  \n
+- Potential users must register on the website 
+	- Users must use their NYU email to register and the system will confirm they are NYU  \n
        students.
-	- []Email is sent to the user for confirmation.\n
-	- []User is directed to create a username and password.\n
-	- [] User is a buyer by default and has the option to sell items.
+	- Email is sent to the user for confirmation.\n
+	- User is directed to create a username and password.\n
+	- User is a buyer by default and has the option to sell items.
 
 2. The user must be logged in
 2.1 Username should be at least 5 characters excluding special characters (Only ASCII     
