@@ -1,0 +1,93 @@
+create table member(
+
+netid text,
+email text,
+user_password text,
+firstname text,
+lastname text,
+phonenumber bigint,
+primary key (netid)
+
+);
+
+create table seller(
+seller_id integer,
+netid text,
+primary key(seller_id, netid),
+foreign key (netid) references member(netid)
+
+);
+
+create table buyer(
+
+buyer_id integer,
+netid text,
+street text,
+city text,
+state text,
+zip integer,
+primary key(buyer_id, netid),
+foreign key (netid) references member(netid)
+);
+
+create table item(
+item_id integer,
+item_name text,
+description text,
+category text,
+price numeric,
+condition text,
+image1 text,
+image2 text,
+current_bid_price numeric,
+primary key (item_id, item_name)
+
+);
+
+create table bid(
+buyer_id integer,
+netid text,
+item_id integer,
+item_name text,
+bid_amount numeric,
+bid_date timestamp,
+primary key(buyer_id, netid,
+item_id, item_name, bid_amount),
+foreign key (buyer_id, netid) references buyer(buyer_id, netid),
+foreign key (item_id, item_name) references item(item_id, item_name)
+
+);
+
+create table sell(
+
+seller_id integer,
+netid text,
+item_id integer,
+item_name text,
+post_date date,
+bidenddate date,
+pickuplocation text,
+primary key (seller_id, netid, item_id, item_name),
+foreign key (seller_id, netid) references seller(seller_id, netid),
+foreign key (item_id, item_name) references item(item_id, item_name)
+
+
+);
+
+create table transaction (
+
+transaction_id integer,
+buyer_id integer,
+netid text,	
+seller_id integer,
+item_id integer,
+item_name text,
+primary key (transaction_id),
+foreign key (buyer_id, netid) references
+buyer(buyer_id, netid),
+foreign key (seller_id, netid) references
+seller(seller_id, netid),
+foreign key (item_id, item_name) references
+item(item_id, item_name)
+
+);

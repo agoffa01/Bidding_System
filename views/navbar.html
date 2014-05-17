@@ -1,0 +1,99 @@
+<style type="text/css">
+    uppercase {
+        color: mediumblue;
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform:uppercase;
+        font-family: Georgia, Times, serif;
+    }
+
+    catCap {
+        font-size: 15px;
+        text-transform:capitalize;
+        font-family: Georgia, Times, serif;
+    }
+
+    capsize {
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform:capitalize;
+        font-family: Georgia, Times, serif;
+    }
+
+    bold {
+        font-weight: bolder;
+    }
+
+    reem_label {
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Georgia, Times, serif;
+    }
+
+    oldPrice {
+        color: purple;
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Georgia, Times, serif;
+    }
+
+    priceLabel {
+        color: green;
+        font-size: 15px;
+        font-weight: bolder; 
+        font-family: Georgia, Times, serif;
+    }
+
+    timeColor {
+        color: red;
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: Georgia, Times, serif;
+    }
+</style>   
+
+<div class="container" style="width:100%; heigth:50px; display:">
+    <center><a href="buyer.php">
+        <img src="images/NYU_Torch.jpg" height="42" width="42">
+        <img src="images/NYUBids_Logo.png" class="nyubid">
+    </a> </center>
+    
+    <div class="custom-nav">
+        <ul class = "nav navbar-nav" >
+            <li class="active"><a href="buyer.php">Buy</a></li>
+            <li><a href="seller_tab.php">Sell</a></li>
+            <li class="custom-category"> Categories | </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="computers.php">Computers</a></li>
+                    <li><a href="cellphones.php">Cellphones</a></li>
+                    <li><a href="consoles.php">Game Consoles</a></li>
+                </ul>
+            </li>
+            <li><a href="furniture.php">Furniture</a></li> 
+            <li><a href="clothing.php">Clothing & Shoes</a></li> 
+            <li><a href="books.php">Books</a></li> 
+            <li><a href="miscellaneous.php">Miscellaneous</a></li> 
+            <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Category <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="electronics.php">Electronics & Computers</a></li>
+                    <li><a href="clothing.php">Clothing & Shoes</a></li>
+                    <li><a href="furniture.php">Furniture</a></li>
+                    <li><a href="books.php">Books</a></li>
+                </ul>
+            </li>-->
+        </ul>
+
+        <div align="right" style="width:100%; heigth:100px; display:inline;">    
+            <form role="search" action = "search.php" method = "GET">
+                <a href="logout.php">Log Out</a>  
+                <input type="text" class="form-control" placeholder="Search" width="10" name = "tosearch">
+                <button type="submit" class="btn btn-default" name = "submit">Submit</button>
+            </form>    
+        </div>
+
+    </div>        
+</div>
