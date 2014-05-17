@@ -7,22 +7,19 @@ Functional Descriptive Detailed Requirements:
 - Potential users must register on the website 
 	- Users must use their NYU email to register and the system will confirm they are NYU  \n
        students.
-	- Email is sent to the user for confirmation.\n
-	- User is directed to create a username and password.\n
+	- Email is sent to the user for confirmation.
+	- User is directed to create a username and password.
 	- User is a buyer by default and has the option to sell items.
 
-2. The user must be logged in
-2.1 Username should be at least 5 characters excluding special characters (Only ASCII     
-       characters).
-2.2 Password should be at least 8 characters including at least one number, one letter   
-       and one special character.
-2.3 User is taken to their portal where the latest auctions are taking place at the 
-       moment.
+- The user must be logged in
+	-Username should be at least 5 characters excluding special characters (Only ASCII characters).
+	-Password should be at least 8 characters including at least one number, one letter and one special character.
+	-User is taken to their portal where the latest auctions are taking place at the moment.
 
-3. User can search and bid on items
-3.1 If the user wants to buy a product, they will click on it and are taken to the product’s 
+- User can search and bid on items
+	-If the user wants to buy a product, they will click on it and are taken to the product’s 
       bidding page.
-	3.2 User has to have the highest bid in order to purchase the product.
+	-User has to have the highest bid in order to purchase the product.
 
 4. User can sell items
 4.1 If the user wants to sell an item, the user clicks the selling tab in the main page and  
