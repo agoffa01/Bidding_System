@@ -20,10 +20,9 @@ Functional Descriptive Detailed Requirements:
       bidding page.
 	-User has to have the highest bid in order to purchase the product.
 
-4. User can sell items
-4.1 If the user wants to sell an item, the user clicks the selling tab in the main page and  
-       is taken to their inventory page where they can add, edit and delete inventory.
-4.2 Once a bid has started, the seller is not allowed to change anything about it.
+- User can sell items
+	-If the user wants to sell an item, the user clicks the selling tab in the main page and  is taken to their inventory page where they can add, edit and delete inventory.
+	-Once a bid has started, the seller is not allowed to change anything about it.
 
 5. Order ticket and confirmation is generated
 5.1 Once the buyer seals the bid, their information is obtained and placed in the order 
