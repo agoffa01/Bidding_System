@@ -1,6 +1,7 @@
 Bidding-System
 ==============
 Senior design project.
+Technoloiges Used: PHP, PostgreSQL, HTML, CSS, Boostrap Framework, JavaScript
 
 Functional Descriptive Detailed Requirements:
 
