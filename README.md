@@ -4,8 +4,8 @@ Senior design project.
 
 Functional Descriptive Detailed Requirements:
 
-1. Potential users must register on the website \n
-1.1 Users must use their NYU email to register and the system will confirm they are NYU  \n
+- Potential users must register on the website 
+- Users must use their NYU email to register and the system will confirm they are NYU  \n
        students.
 1.2 Email is sent to the user for confirmation.\n
 1.3 User is directed to create a username and password.\n
