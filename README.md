@@ -16,13 +16,13 @@ Functional Descriptive Detailed Requirements:
 	- User is taken to their portal where the latest auctions are taking place at the moment.
 
 - User can search and bid on items
-	-If the user wants to buy a product, they will click on it and are taken to the product’s 
+	- If the user wants to buy a product, they will click on it and are taken to the product’s 
       bidding page.
-	-User has to have the highest bid in order to purchase the product.
+	- User has to have the highest bid in order to purchase the product.
 
 - User can sell items
-	-If the user wants to sell an item, the user clicks the selling tab in the main page and  is taken to their inventory page where they can add, edit and delete inventory.
-	-Once a bid has started, the seller is not allowed to change anything about it.
+	- If the user wants to sell an item, the user clicks the selling tab in the main page and  is taken to their inventory page where they can add, edit and delete inventory.
+	- Once a bid has started, the seller is not allowed to change anything about it.
 
 5. Order ticket and confirmation is generated
 5.1 Once the buyer seals the bid, their information is obtained and placed in the order 
